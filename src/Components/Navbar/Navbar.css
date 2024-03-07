@@ -1,58 +1,43 @@
-/* 
-#1D1A39
-#e9e9e9
- */
+
  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:85% ;
-    height:70px ;
-    margin-top: 30px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    /* background-color:#F8FBEB ; */
-    /* background: #E8BCB9; */
+    background-color: #19181A;
+    color: white;
+    width:90% ; 
+    height:100px ;
+    margin-top: 24px;
+    padding: 5px 0;
+    border-radius:16px ;
 }
 .navbar .logo-name span{
-    font-size:40px;
-    font-weight: 500;
-    font-family: "Rubik", sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-}
-
-.navbar .navbar-brand .logo-name{
-    font-family: "Cookie", cursive;
-    font-size: 48px;
-    font-weight: 400;
-    color: rgb(0, 0, 0);
-    box-shadow: #ee5d15;
+    font-size:40px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    color: white;
+    padding-left: 50px;
 }
 .navbar .navbar-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .navbar .navbar-nav li{
     font-size: 20px;
-    /* color: #000000; */
     color: white;
     font-family: "Rubik", sans-serif;
     list-style: none;
     text-decoration: none;
     margin:0 15px;
 }
-.navbar .navbar-nav li:hover{
-    /* color: #01796f; */
-    color: #ee5d15;
-    border-bottom: 2px solid ;
-}
 .theme-toggle .dark{
     width:48px;
+    margin-right: 50px;
 }

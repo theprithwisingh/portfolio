@@ -9,11 +9,9 @@
   box-sizing: border-box;
 }
 body{
-  /* background: url(); */
-  background: linear-gradient(rgba(8,0,58,0.7),rgba(7, 0, 51, 0.7)), url('./assets/background-img3.gif');
+  background:#F5FEFD;
   background-size:cover;
   background-position: center;
-  width: 90%;
   min-height: 90vh;
   font-family: "Roboto", sans-serif;
 }
