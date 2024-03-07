@@ -1,16 +1,69 @@
-.Hero{
-    display: flex;
-    justify-content: space-around;
+.hero-section {
+    /* background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center; */
+    background-color: black;
     width: 90%;
-    height:520px;
-    background: rgb(188, 142, 142);
-    margin: 24px auto auto auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 16px;
-}
-.Hero .card-1{
-    width: 30%;
-    height: 90%;
-    background-color: blue;
-    border-radius: 12px;
-    margin-top: 25px;
-}
+    /* margin-top: 24px; */
+    margin: 24px auto auto auto;
+    padding: 50px;
+
+  }
+  .hero-content img{
+         width: 20%;
+         border-radius: 50%;
+  }
+  .hero-content {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p:nth-child(1){
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #fffdfd;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Media queries for responsive design */
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2.5em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2em;
+    }
+  
+    p {
+      font-size: 0.8em;
+    }
+  }
