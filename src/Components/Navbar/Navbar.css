@@ -5,13 +5,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #19181A;
     color: white;
     width:90% ; 
-    height:100px ;
-    margin-top: 24px;
+    margin: 24px auto auto auto ;
     padding: 5px 0;
-    border-radius:16px ;
 }
 .navbar .logo-name span{
     display: flex;
@@ -20,7 +17,7 @@
     font-size:40px;
     font-weight: 500;
     font-family: "Rubik", sans-serif;
-    color: white;
+    color: #000000;
     padding-left: 50px;
 }
 .navbar .navbar-nav{
@@ -31,7 +28,7 @@
 
 .navbar .navbar-nav li{
     font-size: 20px;
-    color: white;
+    color: #000000;
     font-family: "Rubik", sans-serif;
     list-style: none;
     text-decoration: none;
