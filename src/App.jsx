@@ -9,8 +9,8 @@ function App() {
     <div className='App'>
         <Navbar/>
         <Hero/>
-        <Contact/>
-        <Footer/>
+        {/* <Contact/> */}
+        {/* <Footer/> */}
     </div>
   )
 }

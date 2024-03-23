@@ -1,24 +1,23 @@
-
  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
     width:90% ; 
-    margin: 24px auto auto auto ;
-    padding: 5px 0;
+    margin: 0 auto auto auto ;
+    padding: 24px 0  0  0;
 }
 .navbar .logo-name span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size:40px;
+    line-height: 90%;
+    font-size:48px;
     font-weight: 500;
     font-family: "Rubik", sans-serif;
     color: #000000;
-    padding-left: 50px;
+    /* padding-left: 60px; */
 }
 .navbar .navbar-nav{
     display: flex;
