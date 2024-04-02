@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     width:90% ; 
-    margin: 0 auto auto auto ;
+    margin: auto auto auto auto ;
     padding: 24px 0  0  0;
 }
 .navbar .logo-name span{
@@ -35,5 +35,5 @@
 }
 .theme-toggle .dark{
     width:48px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
