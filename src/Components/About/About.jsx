@@ -7,7 +7,7 @@ function About() {
        <p>About</p>
        <p>Me</p>
       </div>
-      <div className="right-section">
+      <div className="right-sections">
         <p className="About-me-one">
         I'm <span>Prithwi</span>, a <span>Full stack developer</span> from Mumbai, India. With an innate curiosity for technology, I've embarked on a journey to master the art of crafting digital solutions that are both functional and visually compelling.
         </p>

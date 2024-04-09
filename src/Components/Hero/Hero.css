@@ -60,13 +60,14 @@ font-family: "Roboto", sans-serif;
    user-select: none;
   } */
   .right-section .paragraph-One p:nth-child(3){
-   font-size: 64px;
+   margin-top: 10px;
+    font-size: 50px;
    user-select: none;
   }
   .right-section .paragraph-One p:nth-child(4){
     margin-top: 15px;
     margin-bottom: 5px;
-     font-size: 60px;
+     font-size: 56px;
      user-select: none;
     }
 
@@ -89,5 +90,13 @@ font-family: "Roboto", sans-serif;
     color: rgb(184, 0, 126);
     font-weight: 400;
     user-select: none;
+   }
+
+   .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    font-size: 56px;
    }
     /* END */

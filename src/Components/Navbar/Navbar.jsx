@@ -8,10 +8,10 @@ function Navbar() {
           <span>Singh.</span>
         </div>
         <ul className="navbar-nav">
-          <li className="nav-item">About</li>
+          {/* <li className="nav-item">About</li> */}
           <li className="nav-item">Projects</li>
-          <li className="nav-item">Skill</li>
           <li className="nav-item">Contact me</li>
+          <li className="nav-item">Download CV</li>
         </ul>
 
         {/*theme-button*/}

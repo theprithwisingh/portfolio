@@ -33,6 +33,14 @@
     text-decoration: none;
     margin:0 15px;
 }
+.navbar .navbar-nav li:nth-child(3){
+    background:rgb(255, 131, 216);
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
 .theme-toggle .dark{
     width:48px;
     /* margin-right: 50px; */
