@@ -34,14 +34,58 @@
     margin:0 15px;
 }
 .navbar .navbar-nav li:nth-child(3){
-    background:rgb(255, 131, 216);
+    /* background:rgb(255, 131, 216);
     padding: 10px 10px;
     border-radius: 5px;
     outline: none;
     border: none;
-    cursor: pointer;
+    cursor: pointer; */
+    color: rgb(184, 0, 126);
+    border-bottom: 3px solid rgb(255, 131, 216);
 }
 .theme-toggle .dark{
     width:48px;
     /* margin-right: 50px; */
 }
+
+ /*#RESPONSIVE DESIGN*/
+ /* For screens smaller than 576px (extra small devices) */
+ @media (max-width: 575.98px) {
+    .navbar .logo-name span{
+        font-size:24px;
+        font-weight: 500;
+    }
+
+    .navbar .navbar-nav li:nth-child(3){
+    }
+    .theme-toggle .dark{
+        width:40px;
+        /* margin-right: 50px; */
+    }
+ }
+ 
+ /* For screens between 576px and 767.98px (small devices) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar .logo-name span{
+        font-size:24px;
+        font-weight: 500;
+    }
+ }
+ 
+ /* For screens between 768px and 991.98px (medium devices) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar .logo-name span{
+        font-size:32px;
+        font-weight: 500;
+    }
+ }
+ 
+ /* For screens between 992px and 1199.98px (large devices) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+ 
+ }
+ /* For screens larger than or equal to 1200px (extra large devices) */
+ @media (min-width: 1200px) {
+ 
+ }
+ 

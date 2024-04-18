@@ -11,9 +11,9 @@ function App() {
         <Navbar/>
         <Hero/>
 
-        {/* <Contact/> */}
+        <Contact/>
 
-        {/* <Footer/> */}
+        <Footer/>
     </div>
   )
 }

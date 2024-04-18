@@ -1,6 +1,5 @@
 import './Contact.css'
 import { useState } from 'react'
-import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
@@ -32,12 +31,11 @@ function Contact() {
   return (
     <div className='contact'>
        <div className='contact-col'>
-        <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-        <p>Feel free to reach out through contact form or Lorem ipsum dolor sitFeel free to reach out through contact form or Lorem ipsum dolor sit Feel free to reach out through contact form or Lorem ipsum dolor sit Feel free to reach out through contact form or Lorem ipsum dolor sit</p>
+        <p>Let's connect and explore how we can collaborate to bring your ideas to life. Drop me a message, and let's start the conversation!</p>
         <ul>
-            <li><img src={mail_icon}/> Contact@GreatStack.dev</li>
+            <li><img src={mail_icon}/> Prithwisinghpersonal@gmail.com</li>
             <li><img src={phone_icon}/>+1 123-456-7890</li>
-            <li><img src={location_icon}/>09 Street Ekta nagar kandiwali(w) <br/> Mumbai 400067 INDIA
+            <li><img src={location_icon}/>09 Street Ekta nagar kandiwali(W) <br/> Mumbai 400067 INDIA
             </li>
         </ul>
        </div>
@@ -53,7 +51,7 @@ function Contact() {
         <label htmlFor="">Write your message here</label>
         <textarea name="message" id="text-area" rows="6" required></textarea>
 
-        <button type='submit' className='btn dark-btn'>Submit now <img src={white_arrow} alt="" /></button>
+        <button type='submit' className='btn dark-btn'>Submit now</button>
         </form>
         <span>{result}</span>
        </div>
