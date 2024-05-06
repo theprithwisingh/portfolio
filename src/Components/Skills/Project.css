@@ -1,0 +1,17 @@
+.projects .projectCards{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.left img{
+    height: 90%;
+    width: 90%;
+}
+.projectCards .right{
+
+}
+
+/* .left .poster-image img {
+        max-width: 100%;
+        height: auto;
+} */
