@@ -1,17 +1,32 @@
-.projects .projectCards{
+.projects{
+/* background-color: #ff9f9f; */
+padding: 10px;
+}
+.projects .projectCards{   
 display: flex;
 justify-content: space-between;
-align-items: center;
+margin: 25px 0;
+}
+.right{
+    width: 60%;
+}
+.right p{
+    font-size: 24px;
+    text-align: justify;
 }
 .left img{
     height: 90%;
     width: 90%;
 }
+.btn{
+    display: flex;
+    align-items: center;
+}
+.btn button{
+    margin-right:25px;
+    padding: 10px 15px;
+    background-color: red;
+}
 .projectCards .right{
 
 }
-
-/* .left .poster-image img {
-        max-width: 100%;
-        height: auto;
-} */

@@ -4,8 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:90% ; 
-    margin: auto auto auto auto ;
+    /* margin: auto auto auto auto ; */
     padding: 24px 0  0  0;
 }
 .navbar .logo-name span{
