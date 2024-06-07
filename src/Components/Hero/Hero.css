@@ -99,7 +99,24 @@ font-family: "Roboto", sans-serif;
     align-items: center;
     margin-top: 18px;
     font-size: 56px;
+    animation: shake 2s infinite;
+    /* box-shadow: 0 0 10px rgba(154, 25, 25, 0.7); */
    }
+
+   @keyframes shake {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(-2px, -2px);
+    }
+    50% {
+      transform: translate(3px, 2px);
+    }
+    75% {
+      transform: translate(-2px, 3px);
+    }
+  }
   /* END */
  /*#RESPONSIVE DESIGN*/
  /* For screens smaller than 576px (extra small devices) */
