@@ -1,4 +1,11 @@
+.title{
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+
+}
 .projects-container {
+    background-color: #ff0000;
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -7,7 +14,7 @@
   
   .menu {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 1rem;
     list-style-type: none;
     padding: 0;

@@ -121,78 +121,113 @@
 // }
 
 // export default Contact;
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+// import './Contact.css';
+
+// const Contact = () => {
+//   const [formData, setFormData] = useState({
+//     name: '',
+//     project: '',
+//     email: ''
+//   });
+
+//   const handleChange = (e) => {
+//     const { name, value } = e.target;
+//     setFormData({
+//       ...formData,
+//       [name]: value
+//     });
+//   };
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     // Handle form submission logic here
+//     console.log('Form submitted:', formData);
+//   };
+
+//   return (
+//     <div className="contact-form">
+//       <div className="header">
+//         <h1>Let's get started.</h1>
+//         <p>BASIC CONTACT FORM</p>
+//       </div>
+//       <form onSubmit={handleSubmit}>
+//         <div className="form-group">
+//           <label htmlFor="name">My name is</label>
+//           <input
+//             type="text"
+//             id="name"
+//             name="name"
+//             placeholder="YOUR FULL NAME"
+//             value={formData.name}
+//             onChange={handleChange}
+//             required
+//           />
+//         </div>
+        
+//         <div className="form-group">
+//           <label htmlFor="project">and I have a</label>
+//           <input
+//             type="text"
+//             id="project"
+//             name="project"
+//             placeholder="WEBSITE, FULL-TIME JOB, ETC."
+//             value={formData.project}
+//             onChange={handleChange}
+//             required
+//           />
+//         </div>
+        
+//         <div className="form-group">
+//           <label htmlFor="email">that needs help. You can reach me at</label>
+//           <input
+//             type="email"
+//             id="email"
+//             name="email"
+//             placeholder="YOUR EMAIL ADDRESS"
+//             value={formData.email}
+//             onChange={handleChange}
+//             required
+//           />
+//         </div>
+        
+//         <button type="submit">SEND INFO</button>
+//       </form>
+//     </div>
+//   );
+// };
+
+// export default Contact;
+
+
+// src/components/ContactForm.js
+
+import React from 'react';
 import './Contact.css';
-
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    project: '',
-    email: ''
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission logic here
-    console.log('Form submitted:', formData);
-  };
-
   return (
-    <div className="contact-form">
-      <div className="header">
-        <h1>Let's get started.</h1>
-        <p>BASIC CONTACT FORM</p>
+    <div className="form-container">
+      <div className="form-wrapper">
+        <h1 className="title">Let's get started.</h1>
+        <p className="subtitle">Basic Contact Form</p>
+        <form className="form">
+          <label className="label">
+            My name is
+            <input type="text" className="input" placeholder="Your full name" /> and
+          </label>
+          <label className="label">
+            I have a
+            <input type="text" className="input" placeholder="Website, full-time job, etc." />
+            that needs help.
+          </label>
+          <label className="label">
+            You can reach me at
+            <input type="email" className="input" placeholder="Your email address" />
+            to get things started.
+          </label>
+          <button type="submit" className="submit-button">Send Info</button>
+        </form>
       </div>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label htmlFor="name">My name is</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="YOUR FULL NAME"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        
-        <div className="form-group">
-          <label htmlFor="project">and I have a</label>
-          <input
-            type="text"
-            id="project"
-            name="project"
-            placeholder="WEBSITE, FULL-TIME JOB, ETC."
-            value={formData.project}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        
-        <div className="form-group">
-          <label htmlFor="email">that needs help. You can reach me at</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="YOUR EMAIL ADDRESS"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        
-        <button type="submit">SEND INFO</button>
-      </form>
     </div>
   );
 };

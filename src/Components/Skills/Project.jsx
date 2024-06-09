@@ -30,7 +30,9 @@ const Projects = () => {
   };
 
   return (
+    <div>
     <div className="projects-container">
+      <h1 className='title'>Look at My Project</h1>
       <ul className="menu">
         <li onClick={() => handleMenuClick('All')}>All</li>
         <li onClick={() => handleMenuClick('Products')}>Products</li>
@@ -46,6 +48,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };
