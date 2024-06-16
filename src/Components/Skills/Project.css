@@ -2,7 +2,7 @@
   font-size: 4rem;
   margin-bottom: 1rem;
   font-family: 'Roboto', sans-serif;
-
+  
 }
 .projects-container {
     background-color: #ff0000;
@@ -12,7 +12,7 @@
     padding: 1rem;
   }
   
-  .menu {
+  .menu{
     display: flex;
     /* justify-content: center; */
     gap: 1rem;
