@@ -74,7 +74,8 @@ const Projects = () => {
     { id: 9, name: 'Project 9', category: 'Full Stack', description: 'Description 9', imageUrl: 'https://via.placeholder.com/150' },
     { id: 10, name: 'Project 10', category: 'Products', description: 'Description 10', imageUrl: 'https://via.placeholder.com/150' },
     { id: 11, name: 'Project 11', category: 'Blockchain', description: 'Description 11', imageUrl: 'https://via.placeholder.com/150' },
-    { id: 12, name: 'Project 12', category: 'Full Stack', description: 'Description 12', imageUrl: 'https://via.placeholder.com/150' }
+    { id: 12, name: 'Project 12', category: 'Full Stack', description: 'Description 12', imageUrl: 'https://via.placeholder.com/150' },
+    { id: 13, name: 'Project 13', category: 'Products', description: 'Description 13', imageUrl: 'https://via.placeholder.com/150' }
   ];
 
   const filteredProjects = selectedMenu === 'All' 
