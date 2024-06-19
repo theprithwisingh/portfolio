@@ -10,9 +10,13 @@ function Navbar() {
         </div>
         <ul className="navbar-nav">
           {/* <li className="nav-item">About</li> */}
-          <li className="nav-item"><Link to="/">Home</Link></li>
-          <li className="nav-item"><Link to="/projects">Project</Link></li>
-          <li className="nav-item"><Link to="/Contact">Contact me</Link></li>
+          {/* <li className="nav-item">Home</li>
+          <li className="nav-item">Project</li>
+          <li className="nav-item">Contact me</li>
+          <li className="nav-item">Download CV</li> */}
+          <li><a href="#hero-section">Home</a></li>
+          <li><a href="#projects-container">Project</a></li>
+          <li><a href="#form-container">Contact me</a></li>
           <li className="nav-item">Download CV</li>
         </ul>
 

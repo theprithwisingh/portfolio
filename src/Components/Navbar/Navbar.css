@@ -82,7 +82,7 @@ body {
   cursor: pointer;
 }
 
-.navbar-nav li:nth-child(3) {
+.navbar-nav li:nth-child(4) {
   color: rgb(184, 0, 126);
   border-bottom: 3px solid rgb(255, 131, 216);
 }
