@@ -1,9 +1,12 @@
 import React from 'react';
 import './About.css';
+import Navbar from '../Navbar/Navbar';
 
 const About = () => {
+
   return (
     <div className="right-section">
+     <Navbar/>
       <h1>About Me</h1>
       <p>
         Hey there! 👋 I'm a <b>Software Developer and Freelancer</b> hailing from India, ready to ignite the tech scene! 🚀 

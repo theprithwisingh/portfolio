@@ -1,0 +1,19 @@
+/* / */
+
+.navbar{
+    background-color: #1e1e1e;
+    width:500px;
+    height: 100px;
+    margin:5px;
+}
+
+ul{
+   padding-top: 42px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    font-size: 16px;   
+color: white;
+text-decoration: none;
+}
