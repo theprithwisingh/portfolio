@@ -1,14 +1,20 @@
 .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 90%;
     margin: 10px auto;
     border-top:1px solid #797979;
     padding: 15px 0;
 }
 .footer p{
+    display: flex;
     font-size: 24px;
     text-align: center;
 }
-
+.footer p span{
+ margin-right: 60px;
+}
 @media (max-width:600px){
     .footer{
      display: block;

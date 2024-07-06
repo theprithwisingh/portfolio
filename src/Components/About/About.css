@@ -1,0 +1,50 @@
+.right-section {
+    width: 70%;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1, h2, h3 {
+    color: #ffc107;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    background-color: #282828;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 45%;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial {
+    background-color: #282828;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 45%;
+  }
+  
+  .open-source-logos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .open-source-logos img {
+    width: 50px;
+    height: 50px;
+  }
+  
