@@ -1,32 +1,45 @@
 import React from 'react';
-import profileImage from '../assets/images.jpg'; // Adjust the path as needed
-import './ProfileCard.css'; // Assuming you have a CSS file for styling
+import profileImage from '../assets/images.jpg';
+import './ProfileCard.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faInstagram, faTwitter} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 const ProfileCard = () => {
   return (
-    <div className='left-card'>
-    <div className="profile-card">
-      <img src={profileImage} alt="Priyanshu Singh" className="profile-image" />
-      <h1>Prithwi Singh</h1>
-      <h2>Software Developer & Freelancer</h2>
-      <div className="contact-info">
-        <div className="email">
-          <span role="img" aria-label="email">📧</span> prithwisingh77.com
+    <>
+    <div className='card'>
+      <div className='pic-name-position'>
+        <img src={profileImage} alt="" />
+        <p>Prithwi singh</p>
+        <p>Software engineer & Freelancer</p>
+      </div>
+      <hr />
+      <div className='email-location-socialmedia'>
+        <div className='email'>
+          <FontAwesomeIcon icon={faEnvelope} className='icon'/>
+          <div className='email-context'>
+            <div>Email</div>
+            <div>Prihtwisingh@google.com</div>
+          </div>
         </div>
-        <div className="location">
-          <span role="img" aria-label="location">📍</span> Mumbai, India ❤️
+        <div className='location'>
+          <FontAwesomeIcon icon={faMapMarkerAlt} className='icon'/>
+          <div className='location-context'>
+            <div>Location</div>
+            <div>Mumbai, India</div>
+          </div>
+        </div>
+        <div className='socialmedia'>
+          <FontAwesomeIcon icon={faLinkedin} className='social-icon'/>
+          <FontAwesomeIcon icon={faInstagram} className='social-icon'/>
+          <FontAwesomeIcon icon={faTwitter} className='social-icon'/>
+          <FontAwesomeIcon icon={faLinkedin} className='social-icon'/>
+          <FontAwesomeIcon icon={faInstagram} className='social-icon'/>
         </div>
       </div>
-      <div className="social-links">
-        <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>
-        <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
-      </div>
     </div>
-    </div>
+    </>
   );
 };
 

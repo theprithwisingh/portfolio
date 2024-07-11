@@ -4,16 +4,20 @@
     background-color: #1e1e1e;
     width:500px;
     height: 100px;
-    margin:5px;
+    margin-top:0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 32px;
 }
 
 ul{
    padding-top: 42px;
     display: flex;
     justify-content: space-evenly;
+    list-style: none;
 }
-ul li{
-    font-size: 16px;   
-color: white;
-text-decoration: none;
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }

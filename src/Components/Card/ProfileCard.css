@@ -1,43 +1,117 @@
-/* .left-card {
-    background-color: #1e1e1e;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 300px;
-    position: fixed; /* Make the card fixed 
-    
-  } */
-.profile-card {
-    width: 300px;
-    height: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #1e1e1e;
-    color: #ffffff;
-    text-align: center;
-  }
+/* ProfileCard.css */
+.card {
+  background-color: #282828;;
+  border-radius: 20px;
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.pic-name-position img {
+  /* border-radius: 12px; */
+  border-radius: 6px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.pic-name-position p {
+  margin: 5px 0;
+  font-size: 32px;
+}
+
+.pic-name-position p:nth-child(3) {
+  background-color: #000000;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #e7e5e5;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  height: 1px;
+  background-color: #eeeeee;
+}
+.icon{
+  background-color: #000000;
+  border-radius:5px;
+  width: 30px;
+  height: 30px;
+  padding: 10px 10px;
+  color: #ffffff;
+}
+.email,.location {
+  margin: 10px;
+  display: flex;
+}
+.email-context, .location-context{
+  text-align: start;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 20px;
+  font-weight: 300;
+}
+.social-icon{
+  background-color: #000000;
+  border-radius: 50%;
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* .email-context {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+} */
+/* .email-context p, .location-context p{
+  font-size: 45px;
+} */
+/* .email-location-socialmedia .email,
+.email-location-socialmedia .location {
+  display: flex;
   
-  .profile-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
-  }
-  
-  .contact-info {
-    margin-top: 10px;
-  }
-  
-  .social-links a {
-    display: block;
-    margin: 5px 0;
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  .social-links a:hover {
-    text-decoration: underline;
-  }
-   
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.email-location-socialmedia span {
+  font-weight: bold;
+}
+
+.email-location-socialmedia .socialmedia {
+  margin-top: 15px;
+}
+
+.email-location-socialmedia .socialmedia .fa-icon {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #555555;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.email-location-socialmedia .socialmedia .fa-icon:hover {
+  color: #0077b5;
+  color: #e4405f;
+  color: #1da1f2;
+
+*/
