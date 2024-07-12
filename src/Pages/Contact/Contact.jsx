@@ -1,32 +1,27 @@
 import React from 'react';
 import './Contact.css';
 import Navbar from '../../Components/Navbar/Navbar';
+import quote from '../../Components/assets/Quote.jpg'
 const Contact = () => {
   return (
-    <div className="form-container">
+  <>
       <div className="form-wrapper">
       <div className='navbar-setting'><Navbar/></div>
-        <h1 className="title">Let's get started.</h1>
-        <p className="subtitle">Basic Contact Form</p>
-        <form className="form">
-          <label className="label">
-            My name is
-            <input type="text" className="input" placeholder="Your full name" /> and
-          </label>
-          <label className="label">
-            I have a
-            <input type="text" className="input" placeholder="Website, full-time job, etc." />
-            that needs help.
-          </label>
-          <label className="label">
-            You can reach me at
-            <input type="email" className="input" placeholder="Your email address" />
-            to get things started.
-          </label>
-          <button type="submit" className="submit-button">Send Info</button>
+        <img className='wallpaper' src={quote} alt="" />
+        <h3 className="subtitle">Contact Form</h3>
+        <hr />
+        <form action="">
+          <div className='name-email'>
+            <input type="text" placeholder='Enter your name...'/>
+            <input type="email" placeholder='Enter your email...'/>
+          </div>
+          <div className='massege'>
+            <textarea name="Your Massege..." id=""></textarea>
+          </div>
+          <button>Submit</button>
         </form>
       </div>
-    </div>
+  </>
   );
 };
 

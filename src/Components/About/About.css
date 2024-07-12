@@ -1,7 +1,7 @@
 .about-section {
-    width: 70%;
-    /* background-color: #282828; */
-    background-color: chartreuse;
+    /* width: 900px; */
+    width: 60%;
+    background-color: #282828;
     padding: 20px;
     border-radius: 20px;
     position: relative;
@@ -23,8 +23,7 @@
   
   h1{
     color: #ffffff;
-    font-size: 48px;
-    font-weight: 600;
+    font-size: 40px;
   }
   
   .services {
