@@ -1,7 +1,7 @@
 .about-section {
-    /* width: 900px; */
-    width: 60%;
+    width: 55%;
     background-color: #282828;
+    margin-top: 60px;
     padding: 20px;
     border-radius: 20px;
     position: relative;

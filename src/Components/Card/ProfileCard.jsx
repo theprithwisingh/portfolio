@@ -2,7 +2,7 @@ import React from 'react';
 import profileImage from '../assets/images.jpg';
 import './ProfileCard.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faInstagram, faTwitter} from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faInstagram, faTwitter, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 const ProfileCard = () => {
@@ -31,7 +31,7 @@ const ProfileCard = () => {
           </div>
         </div>
         <div className='socialmedia'>
-          <FontAwesomeIcon icon={faLinkedin} className='social-icon'/>
+          <FontAwesomeIcon icon={faGithub} className='social-icon'/>
           <FontAwesomeIcon icon={faInstagram} className='social-icon'/>
           <FontAwesomeIcon icon={faTwitter} className='social-icon'/>
           <FontAwesomeIcon icon={faLinkedin} className='social-icon'/>

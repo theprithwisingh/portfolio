@@ -3,14 +3,13 @@
     background-color: #ffffff;
     color: #ffffff;
     margin: 0;
-    padding: 0;
+    position: relative;
   } 
   .App{
-     position: relative;
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: center;
+    gap: 10px;
   }
-  .App .L{
-    position: static;
-  }
+  /* .App :nth-child(){
+     position: fixed;
+  } */

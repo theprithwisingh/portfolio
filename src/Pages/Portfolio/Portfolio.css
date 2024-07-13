@@ -1,8 +1,9 @@
 .Portfolio-section{
-    width: 60%;
+    width: 55%;
     height: 2000px;
     background-color: #282828;
     padding: 20px;
+    margin-top: 60px;
     border-radius: 20px;
     position: relative;
 }
