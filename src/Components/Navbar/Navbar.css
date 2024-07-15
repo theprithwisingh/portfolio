@@ -13,8 +13,8 @@ ul{
    padding-top: 42px;
     display: flex;
     justify-content: space-evenly;
-    list-style: none;
 }
+list-style: none;
 
 .navbar ul li a {
     text-decoration: none;

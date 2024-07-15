@@ -10,7 +10,7 @@ import ProfileCard from './Components/Card/ProfileCard';
 function App() {
   return (
       <div className="App">
-          <ProfileCard/>
+          {/* <ProfileCard className="ProfileCard"/> */}
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/resume" element={<Resume />} />

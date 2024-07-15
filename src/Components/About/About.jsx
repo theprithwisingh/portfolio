@@ -5,10 +5,45 @@ import ai from '../assets/AI.png'
 import blockchain from '../assets/blockchain.png'
 import product from '../assets/product.png'
 import webdev from '../assets/webdev.png'
+import profileImage from '../assets/images.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faInstagram, faTwitter, faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 const About = () => {
 
   return (
     <div className="about-section">
+      <div className='card'>
+      <div className='pic-name-position'>
+        <img src={profileImage} alt="" />
+        <p>Prithwi singh</p>
+        <p>Software engineer & Freelancer</p>
+      </div>
+      <hr />
+      <div className='email-location-socialmedia'>
+        <div className='email'>
+          <FontAwesomeIcon icon={faEnvelope} className='icon'/>
+          <div className='email-context'>
+            <div>Email</div>
+            <div>Prihtwisingh@google.com</div>
+          </div>
+        </div>
+        <div className='location'>
+          <FontAwesomeIcon icon={faMapMarkerAlt} className='icon'/>
+          <div className='location-context'>
+            <div>Location</div>
+            <div>Mumbai, India</div>
+          </div>
+        </div>
+        <div className='socialmedia'>
+          <FontAwesomeIcon icon={faGithub} className='social-icon'/>
+          <FontAwesomeIcon icon={faTwitter} className='social-icon'/>
+          <FontAwesomeIcon icon={faInstagram} className='social-icon'/>
+          <FontAwesomeIcon icon={faLinkedin} className='social-icon'/>
+          <FontAwesomeIcon icon={faInstagram} className='social-icon'/>
+        </div>
+      </div>
+    </div>
       <h1>About Me</h1>
       <div className='navbar-setting'><Navbar/></div>
       <hr />

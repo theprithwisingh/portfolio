@@ -4,7 +4,13 @@
     color: #ffffff;
     margin: 0;
     position: relative;
+    
   } 
+  .ProfileCard {
+    position: fixed;
+    overflow-y: auto;
+  }
+
   .App{
     display: flex;
     justify-content: center;
