@@ -7,6 +7,7 @@
     margin-top:0px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 32px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
 }
 
 ul{
@@ -14,10 +15,13 @@ ul{
     display: flex;
     justify-content: space-evenly;
 }
-list-style: none;
+li {list-style: none;}
 
 .navbar ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+}
+ul li .active a{
+    border-bottom: 3px solid rgb(255, 0, 0);
 }

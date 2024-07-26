@@ -1,11 +1,15 @@
-/* PrifileCard */
-
-
+.left{
+  width: 90%;
+  margin: 30px 30px 0 30px;
+  height: 550px;
+  background-color: #282828;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
 
 .card {
-  background-color: #680101;
   border-radius: 20px;
-  width: 350px;
+  width: 450px;
   height: 550px;
   margin-top: 60px;
   padding: 20px;
@@ -15,12 +19,18 @@
   right: 200px;
 }
 
+.pic-name-position{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .pic-name-position img {
-  /* border-radius: 12px; */
   border-radius: 6px;
   width: 200px;
   height: 200px;
   object-fit: cover;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -29,7 +39,7 @@
   font-size: 32px;
 }
 
-.pic-name-position p:nth-child(3) {
+.pic-name-position p:nth-child(3){
   background-color: #000000;
   padding: 5px 5px;
   border-radius: 5px;
@@ -38,12 +48,13 @@
   color: #e7e5e5;
 }
 
-hr {
+hr{
   margin: 20px 0;
   border: none;
   height: 1px;
   background-color: #eeeeee;
 }
+
 .icon{
   background-color: #000000;
   border-radius:5px;
@@ -52,10 +63,12 @@ hr {
   padding: 10px 10px;
   color: #ffffff;
 }
+
 .email,.location {
   margin: 10px;
   display: flex;
 }
+
 .email-context, .location-context{
   text-align: start;
   align-items: center;
@@ -63,6 +76,7 @@ hr {
   margin-left: 20px;
   font-weight: 300;
 }
+
 .social-icon{
   background-color: #000000;
   border-radius: 50%;
@@ -71,118 +85,102 @@ hr {
   margin: 10px;
 }
 
-
-
-/* PrifileCard */
 .about-section {
-    width: 55%;
+  display: flex;
+  justify-content: space-between;
+    width: 90%;
+    height: 640px;
     background-color: #282828;
-    margin-top: 60px;
+    margin-top: 10px;
     padding: 20px;
     border-radius: 20px;
     position: relative;
   }
-  .navbar-setting{
+
+.navbar-setting{
     position: absolute;
     top: 0;
     right: 0;
     margin-top:-16px;
-  } 
-  .about-section .context-two,.context-one{
+  }
+
+.about-section .context-two,.context-one{
     font-size:20px;
     font-weight: 300;
   }
-   h2, h3 {
+
+  h2, h3{
     color: #ffffff;
-    margin: 50px 0 5px 0;
+    margin: 30px 0 5px 0;
   }
-  
+
   h1{
     color: #ffffff;
     font-size: 40px;
   }
+
   
-  .services {
+
+.services {
    display: grid;
    grid-template-columns: 1fr 1fr;
   }
+
   .service {
+    width: 350px;
+    height: 70px;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    margin: 5px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+  }
+  
+  .image{
     display: flex;
     justify-content: center;
     align-items: center;
-    width:80%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .image img {
+    width: 35px;
+  }
+  
+  .service-context h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+  
+/*
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width:70%;
     height:130px;
     background-color: #000000;
     padding: 10px 20px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 2px 2px 0px rgba(108, 108, 108, 0.5), inset 0px -3px 6px -2px rgba(0, 0, 0, 0.3);
-
-  }
-  .service .image img{
-    width: 70px;
-  }
-  .service .service-context{
-    font-weight: 300;
-    margin-left: 30px;
-    padding:5px;
-    margin: -10px 10px;
   }
 
-  .testimonials{
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
+.service .image img{
+    width: 40px;
   }
-  .testimonial {
-    justify-content: center;
-    align-items: center;
-    width:80%;
-    height:180px;
-    background-color: #000000;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 2px 0px rgba(108, 108, 108, 0.5), inset 0px -3px 6px -2px rgba(0, 0, 0, 0.3);
-   }
-   .image-name{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-  
-   }
-    .image-name img{
-     width: 75px;
-    }
-    .image-name p{
-      margin-left: 10px;
-     }
-    .testimonial p{
-      text-align: justify;
-      font-weight: 300;
-    }
-    
-  /* .testimonials {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .testimonial {
-    background-color: #282828;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    width: 45%;
-  }
-  
-  .open-source-logos {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  
-  .open-source-logos img {
-    width: 50px;
-    height: 50px;
-  }
-   */
+
+.service .service-context{
+} 
+*/
