@@ -5,7 +5,7 @@ import About from './Components/About/About';
 import Resume from './Pages/Resume/Resume';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import Contact from './Pages/Contact/Contact';
-import ProfileCard from './Components/Card/ProfileCard';
+// import ProfileCard from './Components/Card/ProfileCard';
 
 function App() {
   return (

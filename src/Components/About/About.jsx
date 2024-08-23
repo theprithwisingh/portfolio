@@ -42,8 +42,6 @@ const About = () => {
           <FontAwesomeIcon icon={faTwitter} className='social-icon'/>
           <FontAwesomeIcon icon={faInstagram} className='social-icon'/>
           <FontAwesomeIcon icon={faLinkedin} className='social-icon'/>
-          <FontAwesomeIcon icon={faInstagram} className='social-icon'/>
-          <FontAwesomeIcon icon={faInstagram} className='social-icon'/>
         </div>
       </div>
       </div>
