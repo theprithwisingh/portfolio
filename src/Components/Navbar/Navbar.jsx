@@ -10,9 +10,9 @@ const Navbar = () => {
       <li onClick={() => setMenu('about')} className={menu === 'about' ? 'active' : ''}>
           <Link to="/">About</Link>
         </li>
-        <li onClick={() => setMenu('resume')} className={menu === 'resume' ? 'active' : ''}>
+        {/* <li onClick={() => setMenu('resume')} className={menu === 'resume' ? 'active' : ''}>
           <Link to="/resume">Resume</Link>
-        </li>
+        </li> */}
         <li onClick={() => setMenu('portfolio')} className={menu === 'portfolio' ? 'active' : ''}>
           <Link to="/portfolio">Portfolio</Link>
         </li>
