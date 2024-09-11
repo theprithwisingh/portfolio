@@ -7,6 +7,7 @@ const Portfolio = () => {
     <h3 className="subtitle">Portfolio</h3>
     <div className='navbar-setting'><Navbar/></div>
     <hr />
+
  </div>
   )
 }
