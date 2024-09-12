@@ -1,35 +1,30 @@
-import React from 'react';
-import './Contact.css';
-import Navbar from '../../Components/Navbar/Navbar';
-import quote from '../../Components/assets/Quote.jpg'
+import React from 'react'
+import './Contact.css'
 const Contact = () => {
   return (
-  <> 
-  <div className='contact-section'>
-    <div className='left-image'>
-      <img src={quote} alt="" />
+<div className="contact-container">
+      <h1>Contact</h1>
+      <p>If you're building in / excited about Web-apps or just wanna chat, let's connect.</p>
+      <div className="buttons">
+        <button className="call-button">let's Discuss</button>
+        <button className="email-button">E-Mail</button>
+      </div>
+      
+      <div className="message-form">
+        <h2>Send a message</h2>
+        <form>
+          <input type="text" placeholder="Name" className="input-field" />
+          <input type="email" placeholder="Email" className="input-field" />
+          <textarea placeholder="Message" className="message-field"></textarea>
+          <button type="submit" className="send-button">Send Now</button>
+        </form>
+      </div>
+
+      <div className="subscribe-section">
+        <p>Stay up to date</p>
+      </div>
     </div>
-
-
-    
-    <div className='right-content'>
-    <div className='navbar-setting'><Navbar/></div>
-    <h1>Contact Me</h1>
-    <hr />
-    <form action="">
-    <p>
-     My name is <input type="text" placeholder="YOUR FULL NAME" className="animated-input" /> and I have a 
-    <input type="text" placeholder="WEBSITE, FULL-TIME JOB, ETC." className="animated-input" /> that needs help. 
-     You can reach me at <input type="email" placeholder="YOUR EMAIL ADDRESS" className="animated-input" /> to get things started.
-     </p>
-     <button type="submit">SEND INFO</button>
-    </form>
-    </div>
-
-
-  </div>
-  </>
-  );
-};
+  )
+}
 
 export default Contact;

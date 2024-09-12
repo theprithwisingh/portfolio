@@ -1,21 +1,12 @@
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #ffffff;
-    color: #ffffff;
-    margin: 0;
-    position: relative;
-    
-  } 
-  .ProfileCard {
-    position: fixed;
-    overflow-y: auto;
-  }
 
-  .App{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  /* .App :nth-child(){
-     position: fixed;
-  } */
+.app{
+  display: flex;
+  color: #ffffff;
+}
+.main-container{
+  flex: 1;
+  padding: 20px 50px;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #272727;
+}

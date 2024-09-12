@@ -1,23 +1,32 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
-import About from './Components/About/About';
-import Resume from './Pages/Resume/Resume';
-import Portfolio from './Pages/Portfolio/Portfolio';
+import './App.css'
+import { Route, Routes } from 'react-router-dom';
+import Sidebar from './Components/Sidebar/Sidebar';
+import Home from './Pages/Home/Home';
+import Projects from './Pages/Project/Project';
+import About from './Pages/About/About';
+import Blog from './Pages/Blog/Blog';
 import Contact from './Pages/Contact/Contact';
-// import ProfileCard from './Components/Card/ProfileCard';
+import Productivity from './Pages/Productivity/Productivity';
+import Thoughts from './Pages/Thoughts/Thoughts';
 
 function App() {
   return (
-      <div className="App">
-          {/* <ProfileCard className="ProfileCard"/> */}
-          <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+    <div className='app'>
+      <Sidebar />
+      <div className='main-container' >
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/100xDev" element={<Productivity/>} />
+          <Route path="/thoughts" element={<Thoughts/>} />
+
+        </Routes>
       </div>
+    </div>
   );
 }
 

@@ -22,3 +22,44 @@ Starting with the foundation of HTML and CSS, I quickly immersed myself in the w
 My goal is to seamlessly blend my passion for technology with the tranquility of my surroundings, crafting digital experiences that leave a lasting impact.
 
 As Software Engineer. I Help Startups Launch And Grow Their Products
+
+
+ <p className='context-one'>
+      Hey there! 👋 I'm <b>Prithwi Singh</b>, a dynamic <b>Software Developer and Freelancer </b>from India, ready to set the tech world on fire! From the spark of an idea to a full-fledged launch, I'm your tech virtuoso, transforming concepts into digital masterpieces. I live for the adrenaline rush of coding competitions , where I push the limits and think outside the box.
+      </p>
+      <p className='context-two'>
+        My passion? <b>Designing and building everything from sleek websites to fully-functional products</b>.
+        As a freelancer, I infuse creativity, precision, and dedication into every project, ensuring exceptional results and delighted clients. Let's join forces and create something extraordinary together! 🚀
+      </p>
+
+      <h2>Here's What I Do!</h2>
+
+
+
+
+
+
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
+import About from './Components/About/About';
+import Resume from './Pages/Resume/Resume';
+import Portfolio from './Pages/Portfolio/Portfolio';
+import Contact from './Pages/Contact/Contact';
+// import ProfileCard from './Components/Card/ProfileCard';
+
+function App() {
+  return (
+      <div className="App">
+            {/* <ProfileCard className="ProfileCard"/> */}
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+      </div>
+  );
+}
+
+export default App;/
