@@ -38,19 +38,19 @@ const Sidebar = () => {
       <div className='socialmedia'>
         <h3>Connect</h3>
         <div className='socialmedia-list'>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/theprithwisingh" target="_blank" rel="noopener noreferrer">
             <FaTwitter /> Twitter
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/theprithwisingh" target="_blank" rel="noopener noreferrer">
             <FaGithub /> Github
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/theprithwisingh" target="_blank" rel="noopener noreferrer">
             <FaInstagram /> Instagram
           </a>
-          <a href="https://medium.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://medium.com/theprithwisingh" target="_blank" rel="noopener noreferrer">
             <FaMedium /> Medium
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/prithwi-singh-8817811ab/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin /> LinkedIn
           </a>
         </div>

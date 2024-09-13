@@ -27,6 +27,7 @@ h1 span{
     font-size: 1.1rem;
     margin: 15px 0;
     line-height: 1.6;
+    text-align: justify;
   }
   
   a {

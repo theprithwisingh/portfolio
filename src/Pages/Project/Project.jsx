@@ -5,32 +5,25 @@ const Projects = () => {
   const projectData = [
     {
       image: 'https://shorturl.at/dyzyg',
-      title: 'Kay AI',
-      description: 'Building AI Co-workers for Insurance Brokerages and Agencies.',
-      link: 'https://example.com',
-      status: 'active',
+      title: 'Project-1',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quo porro reprehenderit nulla id sunt veritatis minus distinctio hic deleniti, possimus tempore commodi modi quae cumque odio quibusdam saepe harum!',
+      url: 'https://medium.com/api-center/api-design-practice-7fce69e6336c',
+      link: 'https://example.com'
     },
-  {
-    image: 'https://shorturl.at/dyzyg',
-    title: 'Personal Website',
-    description: 'Crafted from scratch with Next.js, TailwindCSS, and ShadCNA tool to generate secure passwords with customizable options Crafted from scratch with Next.js, TailwindCSS, and ShadCN Building AI Co-workers for Insurance Brokerages and Agencies Building AI Co-workers for Insurance Brokerages and Agencies A tool to generate secure passwords with customizable options Crafted from scratch with Next.js, TailwindCSS, and ShadCN Building AI Co-workers for Insurance Brokerages and Agencies Building AI Co-workers for Insurance Brokerages and Agencies ',
-    link: 'https://example.com',
-    status: 'active',
-  },
-  {
-    image: 'https://shorturl.at/0iszL',
-    title: 'Password Generator',
-    description: 'A tool to generate secure passwords with customizable options A tool to generate secure passwords with customizable options Crafted from scratch with Next.js, TailwindCSS, and ShadCN Building AI Co-workers for Insurance Brokerages and Agencies Building AI Co-workers for Insurance Brokerages and Agencies.Crafted from scratch with Next.js, TailwindCSS, and ShadCNA tool to generate secure passwords with customizable options Crafted from scratch with Next.js, TailwindCSS, and ShadCN Building AI Co-workers for Insurance Brokerages and Agencies Building AI Co-workers for Insurance Brokerages and Agencies A tool to generate secure passwords with customizable options Crafted from scratch with Next.js, TailwindCSS, and ShadCN Building AI Co-workers for Insurance Brokerages and Agencies Building AI Co-workers for Insurance Brokerages and Agencies.',
-    link: 'https://example.com',
-    status: 'inactive',
-  },
-  {
-    image: 'https://shorturl.at/dyzyg',
-    title: 'Kay AI',
-    description: 'Building AI Co-workers for Insurance Brokerages and Agencies A tool to generate secure passwords with customizable options Crafted from scratch with Next.js, TailwindCSS, and ShadCN Building AI Co-workers for Insurance Brokerages and Agencies Building AI Co-workers for Insurance Brokerages and Agencies.',
-    link: 'https://example.com',
-    status: 'active',
-  }
+    {
+      image: 'https://shorturl.at/dyzyg',
+      title: 'Project-2',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quo porro reprehenderit nulla id sunt veritatis minus distinctio hic deleniti, possimus tempore commodi modi quae cumque odio quibusdam saepe harum!.',
+      url: 'https://medium.com/api-center/api-design-practice-7fce69e6336c',
+      link: 'https://example.com'
+    },
+    {
+      image: 'https://shorturl.at/dyzyg',
+      title: 'Project-3',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quo porro reprehenderit nulla id sunt veritatis minus distinctio hic deleniti, possimus tempore commodi modi quae cumque odio quibusdam saepe harum!',
+      url: 'https://medium.com/api-center/api-design-practice-7fce69e6336c',
+      link: 'https://example.com'
+    },
   ];
   return (
   <div className="Project-container">
@@ -38,7 +31,6 @@ const Projects = () => {
       <p>Smart projects, impactful outcomes.</p>
 
       <div className='projects'>
-      <div className="project-list">
         {/*Mapping on the Array*/}
         {projectData.map((project, index) => (
           <ProjectCard
@@ -47,10 +39,9 @@ const Projects = () => {
             title={project.title}
             description={project.description}
             link={project.link}
-            status={project.status}
+            url={project.url}
           />
         ))}
-      </div>
       </div>
     </div>
   );
