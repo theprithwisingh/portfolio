@@ -11,11 +11,10 @@ const Home = () => {
       <h1>Hey, I'm <span>Prithwi</span></h1>
       <p className="sub-heading">I love to <span className="highlight"> Code</span></p>
       <p className="description">
-        Hard-Working, Ambitious, and a Fast Learner. I am a Full-Stack Developer and AI Enthusiast. 
-        Currently, I am working as a Founding Engineer at <a href="https://kay.ai" target="_blank" rel="noopener noreferrer">Kay.ai</a> building workflow automation for insurance brokers.
+      I'm Prithwi, a Full stack developer from Mumbai, India. With an innate curiosity for technology, I've embarked on a journey to master the art of crafting digital solutions that are both functional and visually compelling.
       </p>
       <p className="description">
-        I have built multiple products in the past 5 years. Raised $100K funding for my startup Dreamboat.ai, built Engagebud, Influencerbit.
+      Starting with the foundation of HTML and CSS, I quickly immersed myself in the world of software development. As I honed my skills, I found a particular affinity for JavaScript and C++, which opened the doors to creating dynamic and engaging user experiences. Over time, I've embraced modern frameworks like React and dabbled in backend technologies like Node.js and System Designing solidifying my commitment to becoming a full-stack developer.
       </p>
       <p className="description">
         I help startups and businesses build their web applications and apps. As a Full Stack Developer, I can build your product from scratch or help you with your existing product.
