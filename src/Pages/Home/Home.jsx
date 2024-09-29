@@ -11,13 +11,13 @@ const Home = () => {
       <h1>Hey, I'm <span>Prithwi</span></h1>
       <p className="sub-heading">I love to <span className="highlight"> Code</span></p>
       <p className="description">
-      I'm Prithwi, a Full stack developer from Mumbai, India. With an innate curiosity for technology, I've embarked on a journey to master the art of crafting digital solutions that are both functional and visually compelling.
+      I'm <b>Prithwi</b>, a <b>Full stack developer</b> from Mumbai, India. With an innate curiosity for technology, I've embarked on a journey to master the art of crafting digital solutions that are both functional and visually compelling.
       </p>
       <p className="description">
-      Starting with the foundation of HTML and CSS, I quickly immersed myself in the world of software development. As I honed my skills, I found a particular affinity for JavaScript and C++, which opened the doors to creating dynamic and engaging user experiences. Over time, I've embraced modern frameworks like React and dabbled in backend technologies like Node.js and System Designing solidifying my commitment to becoming a full-stack developer.
+      Starting with the foundation of HTML and CSS, I quickly immersed myself in the world of software development. As I honed my skills, I found a particular affinity for JavaScript and C++, which opened the doors to creating dynamic and engaging user experiences. Over time, I've embraced modern frameworks like React and dabbled in backend technologies like Node.js and System Designing solidifying my commitment to becoming a <b>full-stack developer</b>.
       </p>
       <p className="description">
-        I help startups and businesses build their web applications and apps. As a Full Stack Developer, I can build your product from scratch or help you with your existing product.
+        I help startups and businesses build their web applications and apps. As a <b>Full Stack Developer</b>, I can build your product from scratch or help you with your existing product.
       </p>
       <button onClick={gotoContactPage} className="contact-btn">Contact</button>
       <a href="mailto:prithwisingh77@gmail.com" className="email-link">E-Mail</a>

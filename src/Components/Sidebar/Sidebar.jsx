@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import './Sidebar.css'
 import { Link, useNavigate } from 'react-router-dom';
@@ -34,7 +35,6 @@ const Sidebar = () => {
         Thoughts</Link></li>
       </ul>
 
-      {/* Social Media Section */}
       <div className='socialmedia'>
         <h3>Connect</h3>
         <div className='socialmedia-list'>
