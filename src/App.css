@@ -2,10 +2,33 @@
   display: flex;
   color: #ffffff;
 }
-.main-container{
+/* .main-container{
   flex: 1;
   padding: 20px 50px;
   height: 100vh;
   overflow-y: scroll;
   background-color: #272727;
+} */
+.main-container {
+  display: flex; /* To create two columns: one for sidebar, one for content */
+  height: 100vh; /* Full viewport height */
+  width: 100vw;  /* Full viewport width */
+  overflow: hidden; /* Ensure no overflow outside the container */
+  background-color: #272727;
+}
+
+.sidebar {
+  position: fixed; /* Fix the sidebar */
+  top: 0;
+  left: 0;
+  width: 250px; /* Sidebar width */
+  background-color: #1f1f1f; /* Dark background */
+  color: #ffffff; /* White text */
+  height: 100vh; /* Full viewport height */
+  padding: 20px; /* Padding inside the sidebar */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5); /* Optional shadow */
+  overflow-y: auto; /* Scroll the sidebar itself if its content is longer */
 }

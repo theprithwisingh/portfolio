@@ -61,10 +61,105 @@ h1 span{
     color: #fff;
     text-decoration: underline;
   }
-  /* Responsive Design: Media Queries for smaller screens */
-@media (max-width: 768px) {
+  /* General Styling */
+.home {
+  color: #fff;
+  padding: 50px;
+  border-radius: 8px;
+  max-width: 90%;
+  margin: auto;
+}
+
+h1 span {
+  color: #6B7280;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.highlight {
+  color: #696969;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin: 15px 0;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+a {
+  color: #696969;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact-btn {
+  background-color: #696969;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.contact-btn:hover {
+  background-color: #565656;
+}
+
+.email-link {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 1.1rem;
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* For Tablets and Smaller Laptops (max-width: 1024px) */
+@media (max-width: 1024px) {
   .home {
       padding: 20px;
+  }
+
+  h1 {
+      font-size: 2.5rem;
+  }
+
+  .sub-heading {
+      font-size: 1.4rem;
+  }
+
+  .description {
+      font-size: 1.05rem;
+  }
+
+  .contact-btn {
+      padding: 10px 18px;
+      font-size: 1.05rem;
+  }
+
+  .email-link {
+      font-size: 1.05rem;
+  }
+}
+
+/* For Tablets and Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .home {
+      padding: 15px;
   }
 
   h1 {
@@ -80,7 +175,7 @@ h1 span{
   }
 
   .contact-btn {
-      padding: 10px 20px;
+      padding: 10px 16px;
       font-size: 1rem;
   }
 
@@ -89,6 +184,7 @@ h1 span{
   }
 }
 
+/* For Small Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
   h1 {
       font-size: 1.8rem;
@@ -109,5 +205,37 @@ h1 span{
 
   .email-link {
       font-size: 0.9rem;
+  }
+
+  .home {
+      padding: 15px;
+  }
+}
+
+/* For Very Small Devices (max-width: 360px) */
+@media (max-width: 360px) {
+  h1 {
+      font-size: 1.6rem;
+  }
+
+  .sub-heading {
+      font-size: 0.9rem;
+  }
+
+  .description {
+      font-size: 0.85rem;
+  }
+
+  .contact-btn {
+      padding: 6px 14px;
+      font-size: 0.85rem;
+  }
+
+  .email-link {
+      font-size: 0.85rem;
+  }
+
+  .home {
+      padding: 10px;
   }
 }

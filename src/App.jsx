@@ -14,10 +14,9 @@ import Footer from './Pages/Footer/Footer';
 function App() {
   return (
     <div className='app'>
-      {/* <div className='sidebar'>
-      <Sidebar />
-      </div> */}
-      <Sidebar />
+      <div className='sidebar'>
+      <Sidebar/>
+      </div>
       <div className='main-container' >
         <Routes>
           <Route path="/" element={<Home />} />
