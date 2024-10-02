@@ -47,9 +47,6 @@ const Sidebar = () => {
           <a href="https://instagram.com/theprithwisingh" target="_blank" rel="noopener noreferrer">
             <FaInstagram /> Instagram
           </a>
-          <a href="https://medium.com/theprithwisingh" target="_blank" rel="noopener noreferrer">
-            <FaMedium /> Medium
-          </a>
           <a href="https://www.linkedin.com/in/prithwi-singh-8817811ab/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin /> LinkedIn
           </a>
