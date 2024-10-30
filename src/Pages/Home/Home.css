@@ -4,23 +4,26 @@
 }
 .home{
     width: 50%;
-    margin: 2rem auto;
+    margin: 0px auto;
 }
+
 .heading{
     font-size: 80px;
     font-weight: 500;
-    margin: 20px 0;
+    padding: 20px 0;
 }
 .heading-line{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     opacity: .75;
     line-height: 150%;
+}
+.heading-line span{
+  border-bottom: 2px solid black;
 }
 .batch-card{
     width:20%;
     height: 100px;
     display: flex;
-    /* justify-content: space-evenly; */
     background-color: brown;
     padding: 10px 20px;
 }

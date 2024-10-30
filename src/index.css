@@ -1,9 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{  font-family: "Roboto", sans-serif;}
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    overflow: hidden;
-    background-color: rgb(60, 75, 50);
+*{  font-family: "Roboto", sans-serif;
+
+}
+
+/* Apply background to the entire webpage */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgb(255,255,255);
+  background: linear-gradient(18deg, rgba(255,255,255,1) 22%, rgba(128,128,128,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+#root {
+  min-height: 100%;
+}
+
+/* Fade Animation */
+@keyframes fadeIn {
+  0%{
+    opacity:0;
   }
+  100%{
+      opacity:1;
+  }
+}

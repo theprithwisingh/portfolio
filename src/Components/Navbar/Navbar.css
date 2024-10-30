@@ -1,17 +1,17 @@
 .navbar {
     width: 550px;
     height: 3rem;
-    position: absolute;
+    position: fixed;
     bottom: 40px;
     left: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ebebeb;
-    background-color: #ffffff4d;
+    background-color: #ffffff;
     padding: auto 10px;
     border-radius: 30px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: 1px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.66) 0px 22px 70px 10px;
     z-index: 1000;
   }
   
@@ -23,7 +23,7 @@
   }
   
   .navbar-item {
-    margin: 0 2px;
+    margin: 0 8px;
   }
   
   .navbar-link {
@@ -31,7 +31,7 @@
     color: #000;
     display: flex;
     align-items: center;
-    padding: 8px 16px;
+    padding: 8px 14px;
     border-radius: 20px;
     transition: background-color 0.3s;
     font-size: 15px;
@@ -44,7 +44,8 @@
   
   .navbar-link:hover {
     border: 1px solid rgb(198, 198, 198,.7);
-    background-color: rgb(255, 235, 235);
+    background-color:rgb(225, 225, 225);
+  
   }
 /* Responsive styles for smartphones */
 @media (max-width: 640px) {
