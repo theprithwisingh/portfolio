@@ -1,11 +1,3 @@
-.app{
-  display: flex;
-  color: #ffffff;
-}
-.main-container{
-  flex: 1;
-  padding: 20px 50px;
-  height: 100vh;
-  overflow-y: scroll;
-  background-color: #272727;
-}
+/* .app{
+    background: linear-gradient(28deg, rgba(255,255,255,1) 0%, rgba(232,202,202,1) 100%);
+} */

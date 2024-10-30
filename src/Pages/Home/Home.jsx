@@ -1,28 +1,53 @@
-import React from 'react';
-import './Home.css'
-import { useNavigate } from 'react-router-dom';
+import React from 'react'
+import './Home.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGreaterThan } from '@fortawesome/free-solid-svg-icons';
+
+import myPhoto from '../../assest/myimage.png'
+import arrow from '../../assest/arrow.png'
 const Home = () => {
-  const navigate = useNavigate()
-  const gotoContactPage=()=>{
-    navigate('/contact')
-  }
   return (
     <div className='home'>
-      <h1>Hey, I'm <span>Prithwi</span></h1>
-      <p className="sub-heading">I love to <span className="highlight"> Code</span></p>
-      <p className="description">
-      I'm <b>Prithwi</b>, a <b>Full stack developer</b> from Mumbai, India. With an innate curiosity for technology, I've embarked on a journey to master the art of crafting digital solutions that are both functional and visually compelling.
-      </p>
-      <p className="description">
-      Starting with the foundation of HTML and CSS, I quickly immersed myself in the world of software development. As I honed my skills, I found a particular affinity for JavaScript and C++, which opened the doors to creating dynamic and engaging user experiences. Over time, I've embraced modern frameworks like React and dabbled in backend technologies like Node.js and System Designing solidifying my commitment to becoming a <b>full-stack developer</b>.
-      </p>
-      <p className="description">
-        I help startups and businesses build their web applications and apps. As a <b>Full Stack Developer</b>, I can build your product from scratch or help you with your existing product.
-      </p>
-      <button onClick={gotoContactPage} className="contact-btn">Contact</button>
-      <a href="mailto:prithwisingh77@gmail.com" className="email-link">E-Mail</a>
+      <p className='heading'>Software Engineer</p>
+      <p className='heading-line'>"I’m <span>Prithwi</span> , a software engineer from India focused on building fast, reliable, and scalable web applications. 
+      <br />
+      I’m driven  about optimizing performance and delivering efficient solutions. In my free time, I explore new technologies through personal projects.
+      <br /> It keeps me connected with the latest trends in development."</p>
+
+      {/* <div className="pin">
+          <a href="#" className="pin-link">
+            <span className="icon-image">
+               <img src={myPhoto} alt="" />
+            </span> About me <span><FontAwesomeIcon icon={faGreaterThan} />
+            </span>
+          </a>
+      </div> */}
+
+<div className="pin">
+  <a href="#" className="pin-link">
+    <span className="icon-image">
+      <img src={myPhoto} alt="My Photo" />
+    </span>
+    About me
+    <span className="arrow-icon">
+      <img src={arrow} alt="" />
+    </span>
+  </a>
+</div>
+
+<div className="newsletter-container">
+      <h2>Subscribe to Soniya's Newsletter</h2>
+      <p>I occasionally write about technology, and share thoughts on the intersection of creativity and engineering.</p>
+      
+      <div className="newsletter-form">
+        <input type="email" placeholder="Email" className="email-input" />
+        <button className="signup-button">Sign up</button>
+      </div>
+</div>
+
     </div>
-  );
-};
+  )
+}
 
 export default Home;

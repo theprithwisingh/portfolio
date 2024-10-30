@@ -1,241 +1,140 @@
-.home {
-    color: #fff;
-    padding: 50px;
-    border-radius: 8px;
-    max-width: 90%;
-    margin: auto;
-  }
-h1 span{
-    color: #6B7280;
+*{
+    margin: 0;
+    padding: 0;
 }
-  h1 {
-    font-size: 3rem;
+.home{
+    width: 50%;
+    margin: 2rem auto;
+}
+.heading{
+    font-size: 80px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.heading-line{
+    font-size: 1.3rem;
+    opacity: .75;
+    line-height: 150%;
+}
+.batch-card{
+    width:20%;
+    height: 100px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    background-color: brown;
+    padding: 10px 20px;
+}
+
+.pin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: #f9f9f9; /* Slightly off-white background */
+    border-radius: 50px;
+    padding: 5px 12px; /* Adjust for inner spacing */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: fit-content;
+    border: 1px solid #e0e0e0; /* Light border */
+  }
+  
+  .pin-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  
+  .icon-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    border: 1px solid #ddd; /* Optional: thin border around image */
+  }
+  
+  .icon-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+  
+  .arrow-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    overflow: hidden;
+    margin-right: 25px;
+  }
+  .arrow-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .pin:hover {
+    background-color: #f1f1f1; /* Slight hover effect */
+  }
+  .newsletter-container {
+    background: linear-gradient(135deg, #f6f6f6, #fff);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newsletter-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
     margin-bottom: 10px;
   }
   
-  .sub-heading {
-    font-size: 1.5rem;
-    color: #ccc;
+  .newsletter-container p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 30px;
   }
   
-  .highlight {
-    color: #696969; /* Soft blue to highlight the word "Build" */
-    font-weight: bold;
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
-  .description {
-    font-size: 1.1rem;
-    margin: 15px 0;
-    line-height: 1.6;
-    text-align: justify;
+  .email-input {
+    width: 60%;
+    padding: 12px 15px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
   }
   
-  a {
-    color: #696969; /* Matching link color */
-    text-decoration: none;
+  .email-input:focus {
+    border-color: #000;
   }
   
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .contact-btn {
-    background-color: #696969;
+  .signup-button {
+    padding: 12px 30px;
+    margin-left: 10px;
+    background-color: #000;
     color: #fff;
-    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
+    font-size: 14px;
     cursor: pointer;
-    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
   }
   
-  .contact-btn:hover {
-    background-color: #696969;
+  .signup-button:hover {
+    background-color: #333;
   }
   
-  .email-link {
-    display: inline-block;
-    margin-top: 15px;
-    margin-left: 15px;
-    font-size: 1.1rem;
-    color: #fff;
-    text-decoration: underline;
-  }
-  /* General Styling */
-.home {
-  color: #fff;
-  padding: 50px;
-  border-radius: 8px;
-  max-width: 90%;
-  margin: auto;
-}
-
-h1 span {
-  color: #6B7280;
-}
-
-h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.sub-heading {
-  font-size: 1.5rem;
-  color: #ccc;
-}
-
-.highlight {
-  color: #696969;
-  font-weight: bold;
-}
-
-.description {
-  font-size: 1.1rem;
-  margin: 15px 0;
-  line-height: 1.6;
-  text-align: justify;
-}
-
-a {
-  color: #696969;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.contact-btn {
-  background-color: #696969;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1.1rem;
-}
-
-.contact-btn:hover {
-  background-color: #565656;
-}
-
-.email-link {
-  display: inline-block;
-  margin-top: 15px;
-  margin-left: 15px;
-  font-size: 1.1rem;
-  color: #fff;
-  text-decoration: underline;
-}
-
-/* For Tablets and Smaller Laptops (max-width: 1024px) */
-@media (max-width: 1024px) {
-  .home {
-      padding: 20px;
-  }
-
-  h1 {
-      font-size: 2.5rem;
-  }
-
-  .sub-heading {
-      font-size: 1.4rem;
-  }
-
-  .description {
-      font-size: 1.05rem;
-  }
-
-  .contact-btn {
-      padding: 10px 18px;
-      font-size: 1.05rem;
-  }
-
-  .email-link {
-      font-size: 1.05rem;
-  }
-}
-
-/* For Tablets and Mobile Devices (max-width: 768px) */
-@media (max-width: 768px) {
-  .home {
-      padding: 15px;
-  }
-
-  h1 {
-      font-size: 2rem;
-  }
-
-  .sub-heading {
-      font-size: 1.2rem;
-  }
-
-  .description {
-      font-size: 1rem;
-  }
-
-  .contact-btn {
-      padding: 10px 16px;
-      font-size: 1rem;
-  }
-
-  .email-link {
-      font-size: 1rem;
-  }
-}
-
-/* For Small Mobile Devices (max-width: 480px) */
-@media (max-width: 480px) {
-  h1 {
-      font-size: 1.8rem;
-  }
-
-  .sub-heading {
-      font-size: 1rem;
-  }
-
-  .description {
-      font-size: 0.9rem;
-  }
-
-  .contact-btn {
-      padding: 8px 16px;
-      font-size: 0.9rem;
-  }
-
-  .email-link {
-      font-size: 0.9rem;
-  }
-
-  .home {
-      padding: 15px;
-  }
-}
-
-/* For Very Small Devices (max-width: 360px) */
-@media (max-width: 360px) {
-  h1 {
-      font-size: 1.6rem;
-  }
-
-  .sub-heading {
-      font-size: 0.9rem;
-  }
-
-  .description {
-      font-size: 0.85rem;
-  }
-
-  .contact-btn {
-      padding: 6px 14px;
-      font-size: 0.85rem;
-  }
-
-  .email-link {
-      font-size: 0.85rem;
-  }
-
-  .home {
-      padding: 10px;
-  }
-}
