@@ -8,8 +8,9 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: rgb(255,255,255);
-  background: linear-gradient(18deg, rgba(255,255,255,1) 22%, rgba(128,128,128,1) 100%);
+  /* background: rgb(255,255,255); */
+  /* background: linear-gradient(18deg, rgba(255,255,255,1) 22%, rgba(128,128,128,1) 100%); */
+  background: #000000;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 

@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: #ffffff;
 }
 .home{
     width: 50%;
@@ -33,7 +34,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
-    background-color: #f9f9f9; /* Slightly off-white background */
+    background-color: #ffffff; /* Slightly off-white background */
     border-radius: 50px;
     padding: 5px 12px; /* Adjust for inner spacing */
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
@@ -82,62 +83,38 @@
   .pin:hover {
     background-color: #f1f1f1; /* Slight hover effect */
   }
-  .newsletter-container {
-    background: linear-gradient(135deg, #f6f6f6, #fff);
-    padding: 40px;
-    border-radius: 20px;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  
+
+  .projects-grid {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
   }
   
-  .newsletter-container h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 10px;
+  /* Responsive grid layout */
+  @media (min-width: 768px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
   
-  .newsletter-container p {
-    color: #555;
-    font-size: 16px;
-    margin-bottom: 30px;
+  @media (min-width: 1024px) {
+    .projects-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
   
-  .newsletter-form {
+  .project-card{
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    margin: 75px auto;
+  }
+
+
+  .projectTitleOverview{
+    margin: 25px auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
   }
-  
-  .email-input {
-    width: 60%;
-    padding: 12px 15px;
-    border-radius: 30px;
-    border: 1px solid #ddd;
-    font-size: 14px;
-    outline: none;
-    transition: border-color 0.3s ease;
-  }
-  
-  .email-input:focus {
-    border-color: #000;
-  }
-  
-  .signup-button {
-    padding: 12px 30px;
-    margin-left: 10px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    border-radius: 30px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .signup-button:hover {
-    background-color: #333;
-  }
-  

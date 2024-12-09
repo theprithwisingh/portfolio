@@ -1,0 +1,266 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Blockbuster Movies",
+            "images": [
+                "/src/assest/dummy-image.jpg",
+                "/src/assest/dummy-image1.jpg",
+                "/src/assest/dummy-image2.jpg"
+            ],
+            "overview": "A personalized movie recommendation platform using the Gemini model to suggest movies and series based on user preferences.",
+            "keyFeatures": [
+                "Personalized Recommendations",
+                "Genre Exploration",
+                "Detailed Information"
+            ],
+            "technologiesUsed": [
+                "JavaScript & React",
+                "Redux",
+                "Tailwind CSS",
+                "TMDB API"
+            ],
+            "challengesAndLearnings": "Challenges with API integration and scalability.",
+            "outcome": "Increased user engagement with personalized content.",
+            "links": {
+                "github": "https://github.com/theprithwisingh",
+                "liveLink": "https://prithwisingh.vercel.app"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Fitness Tracker",
+            "images": [
+                "/src/assest/dummy-image.jpg",
+                "/src/assest/dummy-image1.jpg",
+                "/src/assest/dummy-image2.jpg"
+            ],
+            "overview": "A web app to help users track their fitness activities and goals.",
+            "keyFeatures": [
+                "Activity Logging",
+                "Progress Tracking",
+                "Customizable Goals"
+            ],
+            "technologiesUsed": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ],
+            "challengesAndLearnings": "Optimizing database queries for real-time updates.",
+            "outcome": "Improved user fitness tracking experience.",
+            "links": {
+                "github": "https://github.com/example/fitness-tracker",
+                "liveLink": "https://fitness-tracker.vercel.app"
+            }
+        },
+        {
+            "id": 3,
+            "title": "E-Commerce Store",
+            "images": [
+                "/src/assest/dummy-image.jpg",
+                "/src/assest/dummy-image1.jpg",
+                "/src/assest/dummy-image2.jpg"
+            ],
+            "overview": "An online shopping platform offering a wide range of products.",
+            "keyFeatures": [
+                "Product Search",
+                "Shopping Cart",
+                "Order Management"
+            ],
+            "technologiesUsed": [
+                "React",
+                "Redux",
+                "Express",
+                "Stripe API"
+            ],
+            "challengesAndLearnings": "Handling high traffic and secure payment integration.",
+            "outcome": "Seamless shopping experience with high traffic tolerance.",
+            "links": {
+                "github": "https://github.com/example/ecommerce-store",
+                "liveLink": "https://ecommerce-store.com"
+            }
+        },
+        {
+            "id": 4,
+            "title": "Weather App",
+            "images": [
+                "/src/assest/dummy-image.jpg",
+                "/src/assest/dummy-image1.jpg",
+                "/src/assest/dummy-image2.jpg"
+            ],
+            "overview": "A web application providing real-time weather updates for any location.",
+            "keyFeatures": [
+                "Real-Time Weather",
+                "Location-Based Forecast",
+                "Weekly Summary"
+            ],
+            "technologiesUsed": [
+                "React",
+                "OpenWeather API",
+                "Bootstrap"
+            ],
+            "challengesAndLearnings": "Efficiently displaying large amounts of real-time data.",
+            "outcome": "Improved user experience with accurate weather information.",
+            "links": {
+                "github": "https://github.com/example/weather-app",
+                "liveLink": "https://weather-app.com"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Online Learning Platform",
+            "images": [
+                "/src/assest/dummy-image.jpg",
+                "/src/assest/dummy-image1.jpg",
+                "/src/assest/dummy-image2.jpg"
+            ],
+            "overview": "A platform for students to take online courses and track their progress.",
+            "keyFeatures": [
+                "Course Enrollments",
+                "Progress Tracking",
+                "Certificates"
+            ],
+            "technologiesUsed": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ],
+            "challengesAndLearnings": "Managing course data and user progress efficiently.",
+            "outcome": "Enhanced learning experience for users with detailed progress tracking.",
+            "links": {
+                "github": "https://github.com/example/online-learning-platform",
+                "liveLink": "https://online-learning.com"
+            }
+        },
+        {
+            "id": 6,
+            "title": "Portfolio Website",
+            "images": [
+                "/src/assest/dummy-image.jpg",
+                "/src/assest/dummy-image1.jpg",
+                "/src/assest/dummy-image2.jpg"
+            ],
+            "overview": "A personal portfolio website to showcase projects and skills.",
+            "keyFeatures": [
+                "Responsive Design",
+                "Project Showcase",
+                "Contact Form"
+            ],
+            "technologiesUsed": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "challengesAndLearnings": "Creating a responsive, mobile-friendly design.",
+            "outcome": "A professional showcase of skills and projects.",
+            "links": {
+                "github": "https://github.com/example/portfolio-website",
+                "liveLink": "https://portfolio-website.com"
+            }
+        },
+        {
+            "id": 7,
+            "title": "Task Manager",
+            "images": [
+                "/src/assest/dummy-image.jpg",
+                "/src/assest/dummy-image1.jpg",
+                "/src/assest/dummy-image2.jpg"
+            ],
+            "overview": "A task management app to help users organize and track their to-do lists.",
+            "keyFeatures": [
+                "Task Creation",
+                "Priority Levels",
+                "Due Date Reminders"
+            ],
+            "technologiesUsed": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ],
+            "challengesAndLearnings": "Ensuring smooth user experience with real-time task updates.",
+            "outcome": "A user-friendly task management solution.",
+            "links": {
+                "github": "https://github.com/example/task-manager",
+                "liveLink": "https://task-manager.com"
+            }
+        },
+        {
+            "id": 8,
+            "title": "Travel Booking App",
+            "images": [
+                "/src/assest/dummy-image.jpg",
+                "/src/assest/dummy-image1.jpg",
+                "/src/assest/dummy-image2.jpg"
+            ],
+            "overview": "A platform for users to book flights, hotels, and vacation packages.",
+            "keyFeatures": [
+                "Flight Search",
+                "Hotel Reservations",
+                "Vacation Packages"
+            ],
+            "technologiesUsed": [
+                "React",
+                "Node.js",
+                "Stripe API"
+            ],
+            "challengesAndLearnings": "Handling complex booking systems and secure payment.",
+            "outcome": "A smooth booking process for travel enthusiasts.",
+            "links": {
+                "github": "https://github.com/example/travel-booking-app",
+                "liveLink": "https://travel-booking.com"
+            }
+        },
+        {
+            "id": 9,
+            "title": "Social Media Platform",
+            "images": [
+                "/src/assest/dummy-image.jpg",
+                "/src/assest/dummy-image1.jpg",
+                "/src/assest/dummy-image2.jpg"
+            ],
+            "overview": "A social media platform for users to connect, share, and interact.",
+            "keyFeatures": [
+                "User Profiles",
+                "Post Creation",
+                "Real-Time Messaging"
+            ],
+            "technologiesUsed": [
+                "React",
+                "Node.js",
+                "Socket.io"
+            ],
+            "challengesAndLearnings": "Managing real-time messaging and scalable user interactions.",
+            "outcome": "Increased user engagement with real-time social features.",
+            "links": {
+                "github": "https://github.com/example/social-media-platform",
+                "liveLink": "https://social-media.com"
+            }
+        },
+        {
+            "id": 10,
+            "title": "Event Planner",
+            "images": [
+                "/src/assest/dummy-image.jpg",
+                "/src/assest/dummy-image1.jpg",
+                "/src/assest/dummy-image2.jpg"
+            ],
+            "overview": "An app to help users plan and manage events efficiently.",
+            "keyFeatures": [
+                "Event Creation",
+                "Guest Management",
+                "Budget Tracking"
+            ],
+            "technologiesUsed": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ],
+            "challengesAndLearnings": "Ensuring smooth guest management and real-time event updates.",
+            "outcome": "Improved user experience in planning and managing events.",
+            "links": {
+                "github": "https://github.com/example/event-planner",
+                "liveLink": "https://event-planner.com"
+            }
+        }
+    ]
+}
