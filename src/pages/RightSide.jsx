@@ -9,7 +9,7 @@ import Contact from './contact';
 const RightSide = () => {
   return (
     <>
-   <Routes>
+     <Routes>
         <Route path="/" element={<Project />} />  {/* Default Route */}
         <Route path="/about" element={<About />} />
         <Route path="/freelance" element={<Freelance />} />
