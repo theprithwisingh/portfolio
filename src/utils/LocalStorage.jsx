@@ -1,7 +1,7 @@
 const projectData = [
     {
       "id": 1,
-      "category": "Web Development",
+      "category": "Full stack Development",
       "title": "Portfolio Website",
       "description": "A personal portfolio website to showcase my projects, experience, and skills A weather app that displays real-time weather information based on the user's location real-time weather information based on the user's location real-time weather information based on the user's location.",
       "image": "https://global.discourse-cdn.com/flex035/uploads/threejs/optimized/3X/a/a/aa87ec7839bcddc55ffeed0fe454ac1d9c8f6ba4_2_1035x646.jpeg",
@@ -31,7 +31,7 @@ const projectData = [
     },
     {
       "id": 4,
-      "category": "Web Development",
+      "category": "Full stack development",
       "title": "Blog Website",
       "description": "A blog website with CMS capabilities allowing users to write, edit, and publish blog posts.",
       "image": "https://blog.zegocloud.com/wp-content/uploads/2024/03/whatsapp-chat-app-768x542.jpg",
@@ -61,7 +61,7 @@ const projectData = [
     },
     {
       "id": 7,
-      "category": "Web Development",
+      "category": "Full stack Development",
       "title": "Weather App",
       "description": "A weather app that displays real-time weather information based on the user's location real-time weather information based on the user's location real-time weather information based on the user's location.",
       "image": "https://blog.zegocloud.com/wp-content/uploads/2024/03/signal-chat-app-768x396.jpg",

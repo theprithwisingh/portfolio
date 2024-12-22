@@ -6,7 +6,7 @@ function App() {
   return (
     <>
      <div className="flex h-screen">
-      <div className="w-[20%] bg-gray-100 sticky top-0 h-screen">
+      <div className="w-[20%] bg-gray-200 sticky top-0 h-screen">
         <LeftSide />
       </div>
       <div className="w-[80%] bg-white overflow-y-auto">
