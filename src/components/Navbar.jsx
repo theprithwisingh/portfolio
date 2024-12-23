@@ -13,7 +13,7 @@ const Navbar = () => {
       </li>
 
       <li className='py-1.5'>
-        <Link to="/productivity" className="block text-base font-normal hover:text-blue-500 max-lg:text-sm lg:[text-base]">Experience</Link>
+        <Link to="/productivity" className="block text-base font-normal hover:text-blue-500 max-lg:text-sm lg:[text-base]">Experienceeee</Link>
       </li>
       <li className='py-1.5'>
         <Link to="/freelance" className="block text-base font-normal hover:text-blue-500 max-lg:text-sm lg:[text-base]">Freelance</Link>
@@ -21,9 +21,9 @@ const Navbar = () => {
       <li className='py-1.5'>
         <Link to="/competitiveProgramming" className="block text-base font-normal hover:text-blue-500 max-lg:text-sm lg:[text-base]">CP</Link>
       </li>
-      {/* <li className='py-1.5'>
+      <li className='py-1.5'>
         <Link to="/contact" className="block text-base font-normal hover:text-blue-500 max-lg:text-sm lg:[text-base]">Contact Me</Link>
-      </li> */}
+      </li>
     </ul>
   </nav>
   )
