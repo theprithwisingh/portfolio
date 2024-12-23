@@ -4,7 +4,7 @@ import  About from './About';
 import Project from './Project';
 import Freelance from './Freelance';
 import Productivity from './Productivity';
-import Blogs from './Blogs';
+import CompetitiveProgramming from './CompetitiveProgramming'
 import Contact from './contact';
 const RightSide = () => {
   return (
@@ -14,7 +14,7 @@ const RightSide = () => {
         <Route path="/about" element={<About />} />
         <Route path="/freelance" element={<Freelance />} />
         <Route path="/productivity" element={<Productivity />} />
-        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/CompetitiveProgramming" element={<CompetitiveProgramming />}/>
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </>

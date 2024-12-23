@@ -5,7 +5,7 @@ import ProfileIcon from '../components/ProfileIcon';
 
 const LeftSide = () => {
   return (
-    <div>
+    <div className=''>
          <ProfileIcon/>
          <Navbar/>
          {/* <ThemeProvider/> */}
