@@ -5,9 +5,9 @@ import ProfileIcon from '../components/ProfileIcon';
 
 const LeftSide = () => {
   return (
-    <div className=''>
+    <div className='max-sm:flex'>
          <ProfileIcon/>
-         <Navbar/>
+         <div className='max-sm:hidden'><Navbar/></div>
          {/* <ThemeProvider/> */}
     </div>
   )
