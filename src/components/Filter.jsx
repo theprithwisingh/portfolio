@@ -39,7 +39,7 @@ const Filter = ({ categories, selectedCategory, onCategoryChange }) => {
           key={index}
           onClick={() => onCategoryChange(category)}
           className={`px-2 py-1 rounded-md text-[11px] font-semibold transition ${
-            selectedCategory === category ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
+            selectedCategory === category ? 'bg-[#0BDA51] text-white' : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
           }`}
         >
           {category}

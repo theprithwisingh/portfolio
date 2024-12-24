@@ -171,8 +171,7 @@ const Project = () => {
 
   return (
     <div className='m-5'>
-      {/* //when responsive activaed */}
-      <div className='max-lg:hidden max-sm:flex max-sm:bg-slate-400 max-sm:text-[10px]'><Navbar/></div>
+      <div className='max-lg:hidden max-sm:block'><Navbar/></div>
       <h1 className='text-3xl text-black font-bold mb-5'>Projects</h1>
 
       <Filter

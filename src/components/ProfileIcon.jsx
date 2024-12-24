@@ -17,7 +17,8 @@ import React from 'react';
 
 const ProfileIcon = () => {
   return (
-    <div className="flex flex-col justify-start align-middle mt-5 ml-5 max-sm:ml-2 max-sm:mt-2  max-sm:mb-2  max-sm:flex max-sm:flex-row" >
+    <div className="flex flex-col justify-start align-middle mt-5 ml-5 
+                    max-sm:ml-2 max-sm:px-2 max-sm:py-2 max-sm:mt-2 max-sm:flex max-sm:flex-row" >
       <div>
       <img className="h-16 w-16 rounded-md border-red-500" src="https://dummyimage.com/1080x1080/ff0000/fff&text=Hello" alt="Profile" />
       </div>
