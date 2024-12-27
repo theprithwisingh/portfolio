@@ -171,7 +171,7 @@ const Project = () => {
 
   return (
     <div className='m-5'>
-      <div className='max-lg:hidden max-sm:block'><Navbar/></div>
+      <div className='lg:hidden xl:hidden 2xl:hidden md:hidden  max-sm:block'><Navbar/></div>
       <h1 className='text-3xl text-black font-bold mb-5'>Projects</h1>
 
       <Filter
