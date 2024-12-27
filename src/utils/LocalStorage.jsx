@@ -107,7 +107,7 @@ const freelanceData= [
       "category": "Web Development",
       "title": "Real Estate Website",
       "description": "A real estate platform to list and search properties for rent and sale with interactive maps and filters.",
-      "image": "https://example.com/real-estate-image.jpg",
+      "image": "https://dummyimage.com/1080x1080/fff990/fff&text=Hello",
       "tech_stack": ["React", "Node.js", "MongoDB", "Mapbox"],
       "github_link": "https://github.com/username/real-estate",
       "demo_link": "https://realestate-demo.com"
@@ -117,7 +117,7 @@ const freelanceData= [
       "category": "Mobile App",
       "title": "Fitness Tracker App",
       "description": "A mobile app to track fitness goals, workouts, and progress over time with analytics and graphs.",
-      "image": "https://example.com/fitness-app-image.jpg",
+      "image": "https://dummyimage.com/1080x1080/ff0660/fff&text=Hello",
       "tech_stack": ["React Native", "Redux", "Firebase"],
       "github_link": "https://github.com/username/fitness-tracker",
       "demo_link": "https://fitnesstracker-demo.com"
@@ -127,7 +127,7 @@ const freelanceData= [
       "category": "Blockchain",
       "title": "NFT Marketplace",
       "description": "A decentralized platform for minting, buying, and selling NFTs with Ethereum integration.",
-      "image": "https://example.com/nft-marketplace-image.jpg",
+      "image": "https://dummyimage.com/1080x1080/ff5500/fff&text=Hello",
       "tech_stack": ["Solidity", "Ethereum", "React", "IPFS"],
       "github_link": "https://github.com/username/nft-marketplace",
       "demo_link": "https://nftmarketplace-demo.com"
@@ -137,7 +137,7 @@ const freelanceData= [
       "category": "Web Development",
       "title": "Job Portal",
       "description": "A job portal for job seekers and employers to post and apply for jobs with a resume upload feature.",
-      "image": "https://example.com/job-portal-image.jpg",
+      "image": "https://dummyimage.com/1080x1080/ff0770/fff&text=Hello",
       "tech_stack": ["Next.js", "Tailwind CSS", "Express", "MongoDB"],
       "github_link": "https://github.com/username/job-portal",
       "demo_link": "https://jobportal-demo.com"
@@ -147,7 +147,7 @@ const freelanceData= [
       "category": "Web Development",
       "title": "Restaurant Website",
       "description": "An online food ordering and reservation system for a restaurant with menu management and payment integration.",
-      "image": "https://example.com/restaurant-image.jpg",
+      "image": "https://dummyimage.com/1080x1080/ff0590/fff&text=Hello",
       "tech_stack": ["Vue.js", "Laravel", "Stripe"],
       "github_link": "https://github.com/username/restaurant-website",
       "demo_link": "https://restaurant-demo.com"
@@ -157,7 +157,7 @@ const freelanceData= [
       "category": "Mobile App",
       "title": "Recipe App",
       "description": "A recipe app where users can browse, share, and save their favorite recipes with step-by-step instructions.",
-      "image": "https://example.com/recipe-app-image.jpg",
+      "image": "https://dummyimage.com/1080x1080/ff0022/fff&text=Hello",
       "tech_stack": ["Ionic", "Angular", "Firebase"],
       "github_link": "https://github.com/username/recipe-app",
       "demo_link": "https://recipeapp-demo.com"
@@ -167,7 +167,7 @@ const freelanceData= [
       "category": "Artificial Intelligence",
       "title": "Sentiment Analysis Tool",
       "description": "An AI tool that analyzes text data to determine the sentiment (positive, negative, or neutral) using NLP techniques.",
-      "image": "https://example.com/sentiment-analysis-image.jpg",
+      "image": "https://dummyimage.com/1080x1080/ff0011/fff&text=Hello",
       "tech_stack": ["Python", "NLTK", "Flask"],
       "github_link": "https://github.com/username/sentiment-analysis",
       "demo_link": "https://sentimentanalysis-demo.com"
@@ -177,7 +177,7 @@ const freelanceData= [
       "category": "Data Science",
       "title": "Stock Market Prediction",
       "description": "A machine learning project that predicts stock market trends based on historical data.",
-      "image": "https://example.com/stock-market-prediction-image.jpg",
+      "image": "https://dummyimage.com/1080x1080/ff6666/fff&text=Hello",
       "tech_stack": ["Python", "Pandas", "Scikit-learn"],
       "github_link": "https://github.com/username/stock-market-prediction",
       "demo_link": "https://stockprediction-demo.com"
@@ -187,7 +187,7 @@ const freelanceData= [
       "category": "Game Development",
       "title": "3D Shooter Game",
       "description": "A first-person 3D shooter game with multiplayer capabilities built using a game engine.",
-      "image": "https://example.com/3d-shooter-game-image.jpg",
+      "image": "https://dummyimage.com/1080x1080/ff0000/fff&text=Hello",
       "tech_stack": ["Unity", "C#", "Photon"],
       "github_link": "https://github.com/username/3d-shooter-game",
       "demo_link": "https://shootergame-demo.com"
@@ -197,7 +197,7 @@ const freelanceData= [
       "category": "IoT",
       "title": "Smart Home Automation System",
       "description": "An IoT-based project to automate home devices like lights, fans, and security systems using sensors and a mobile app.",
-      "image": "https://example.com/smart-home-image.jpg",
+      "image": "https://dummyimage.com/1080x1080/ff0000/fff&text=Hello",
       "tech_stack": ["Arduino", "Node.js", "MQTT"],
       "github_link": "https://github.com/username/smart-home-automation",
       "demo_link": "https://smarthome-demo.com"

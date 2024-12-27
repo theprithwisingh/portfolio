@@ -18,15 +18,30 @@ import React from 'react';
 const ProfileIcon = () => {
   return (
     <div className="
-        flex flex-col justify-start align-middle mt-5 ml-2
+        flex flex-col justify-start align-middle mt-5 ml-4
         max-sm:ml-2 max-sm:px-2 max-sm:py-2 max-sm:mt-2 max-sm:flex max-sm:flex-row" >
       <div>
       <img className="h-24 w-24 rounded-md border-red-500" src="https://dummyimage.com/1080x1080/ff0000/fff&text=Hello" alt="Profile" />
       </div>
       <div className='max-sm:ml-3 max-sm:mt-1'>
-      <h3 className="text-lg font-bold max-lg:text-[14px] max-2xl:text-base">Prithwi Singh</h3>
-      <h3 className="text-lg font-bold max-lg:text-[14px] max-2xl:text-base">Full stack engineer</h3>
-      <a className="text-md max-lg:text-[14px] " href="mailto:prithwisingh77@gmail.com">Prithwisingh7777@gmail.com</a>
+      <h3 className="
+      text-lg font-bold 
+      max-sm:text-[14px] max-sm:mt-0 max-sm:p-0
+      max-lg:text-[14px] 
+      max-2xl:text-base 2xl:text-[lg]
+      ">Prithwi Singh</h3>
+
+      <h3 className="
+      text-lg font-bold 
+      max-sm:text-[10px] max-sm:mt-0 max-sm:p-0
+      max-lg:text-[14px] max-2xl:text-base 2xl:text-[lg] 
+      ">Full stack engineer</h3>
+      <a className="
+      text-md 
+      max-sm:text-[10px] max-sm:mt-0 max-sm:p-0
+      lg:text-[12px] xl:text-base 2xl:text-[lg]
+
+      " href="mailto:prithwisingh77@gmail.com">Prithwisingh7777@gmail.com</a>
       </div>
     </div>
   );

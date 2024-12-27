@@ -171,7 +171,9 @@ const Project = () => {
 
   return (
     <div className='m-5'>
+      <hr className='lg:hidden xl:hidden 2xl:hidden md:hidden  max-sm:block border-1 border-black w-4/4'/>
       <div className='lg:hidden xl:hidden 2xl:hidden md:hidden  max-sm:block'><Navbar/></div>
+      <hr className='lg:hidden xl:hidden 2xl:hidden md:hidden  max-sm:block border-1 border-black w-4/4 my-1'/>
       <h1 className='text-3xl text-black font-bold mb-5'>Projects</h1>
 
       <Filter
@@ -193,11 +195,11 @@ const Project = () => {
                 className="project-image w-full h-48 object-cover"
               />
               <div className="px-1.5 py-1">
-                <h3 className="text-sm font-semibold text-gray-900">{project.title}</h3>
-                <p className="text-gray-700 text-[11px] mb-1 h-14 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100">
+                <h3 className="text-base font-semibold text-gray-900">{project.title}</h3>
+                <p className="text-gray-700 text-[14px] mb-1 h-14 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100">
                   {project.description}
                 </p>
-                <p className='text-[11px] font-semibold mb-1 text-gray-900'>{project.category}</p>
+                <p className='text-[14px] font-semibold mb-1 text-gray-900'>{project.category}</p>
 
                 <div className="tech-stack mb-2">
                   <h4 className=" text-[11px] font-semibold text-black mb-1">Tech Stack:</h4>
@@ -205,7 +207,7 @@ const Project = () => {
                     {project.tech_stack.map((tech, index) => (
                       <li
                         key={index}
-                        className="bg-gray-100 text-gray-600 text-[10px] px-1 py-1 rounded-sm hover:bg-gray-200 hover:text-black transition"
+                        className="bg-gray-100 text-gray-600 text-[12px] px-1 py-1 rounded-sm hover:bg-gray-200 hover:text-black transition"
                       >
                         {tech}
                       </li>
