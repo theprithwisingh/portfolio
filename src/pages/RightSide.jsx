@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import  About from './About';
 import Project from './Project';
 import Freelance from './Freelance';
-import Productivity from './Productivity';
 import CompetitiveProgramming from './CompetitiveProgramming'
 import Contact from './Contact';
 const RightSide = () => {
@@ -13,7 +12,6 @@ const RightSide = () => {
         <Route path="/" element={<Project />} />  {/* Default Route */}
         <Route path="/about" element={<About />} />
         <Route path="/freelance" element={<Freelance />} />
-        <Route path="/productivity" element={<Productivity />} />
         <Route path="/CompetitiveProgramming" element={<CompetitiveProgramming />}/>
         <Route path="/contact" element={<Contact />} />
       </Routes>

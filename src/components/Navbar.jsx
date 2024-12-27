@@ -46,7 +46,7 @@ const Navbar = () => {
         max-2xl:text-lg 2xl:font-semibold
         ">CP</Link>
       </li>
-      <li className='py-1.5'>
+      {/* <li className='py-1.5'>
         <Link 
         to="/productivity" 
         className="
@@ -54,7 +54,7 @@ const Navbar = () => {
         max-lg:text-base max-lg:font-semibold
         max-2xl:text-lg 2xl:font-semibold
          ">Experience</Link>
-      </li>
+      </li> */}
       <li className='py-1.5'>
         <Link 
         to="/contact" 
