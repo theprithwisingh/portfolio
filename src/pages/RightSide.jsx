@@ -5,7 +5,7 @@ import Project from './Project';
 import Freelance from './Freelance';
 import Productivity from './Productivity';
 import CompetitiveProgramming from './CompetitiveProgramming'
-import Contact from './contact';
+import Contact from './Contact';
 const RightSide = () => {
   return (
     <>
