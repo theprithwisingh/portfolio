@@ -39,19 +39,19 @@ const About = () => {
         <div className="mt-12 text-center">
           <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Connect with me</h3>
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition duration-300">
+            <a href="https://github.com/theprithwisingh" className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition duration-300">
               <FontAwesomeIcon icon={faYoutube} className="fa-2x" />
             </a>
-            <a href="#" className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition duration-300">
+            <a href="https://github.com/theprithwisingh" className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition duration-300">
               <FontAwesomeIcon icon={faGithub} className="fa-2x" />
             </a>
-            <a href="#" className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition duration-300">
+            <a href="https://github.com/theprithwisingh" className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition duration-300">
               <FontAwesomeIcon icon={faLinkedin} className="fa-2x" />
             </a>
-            <a href="#" className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition duration-300">
+            <a href="https://www.instagram.com/theprithwisingh/" className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition duration-300">
               <FontAwesomeIcon icon={faInstagram} className="fa-2x" />
             </a>
-            <a href="#" className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition duration-300">
+            <a href="https://x.com/theprithwisingh" className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition duration-300">
               <FontAwesomeIcon icon={faTwitter} className="fa-2x" />
             </a>
           </div>
