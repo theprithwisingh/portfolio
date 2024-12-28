@@ -10,7 +10,7 @@ const Navbar = () => {
       
     <li className='py-1.5'>
         <Link 
-        to="/about" 
+        to="/" 
         className="
         max-sm:text-[13px] max-sm:font-normal text-[#000000] rounded
         max-lg:text-base max-lg:font-semibold
@@ -20,7 +20,7 @@ const Navbar = () => {
 
     <li className='py-1.5'>
         <Link 
-        to="/" 
+        to="/project" 
         className="
         max-sm:text-[13px] max-sm:font-normal text-[#000000] rounded
         max-lg:text-base max-lg:font-semibold
@@ -37,7 +37,7 @@ const Navbar = () => {
         max-2xl:text-lg 2xl:font-semibold
         ">Freelance</Link>
       </li>
-      <li className='py-1.5'>
+      {/* <li className='py-1.5'>
         <Link 
         to="/competitiveProgramming" 
         className="
@@ -45,7 +45,7 @@ const Navbar = () => {
         max-lg:text-base max-lg:font-semibold
         max-2xl:text-lg 2xl:font-semibold
         ">CP</Link>
-      </li>
+      </li> */}
       {/* <li className='py-1.5'>
         <Link 
         to="/productivity" 
